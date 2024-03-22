@@ -1,0 +1,161 @@
+
+/* 공통 */
+
+/* reset */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+}
+
+/* common style */
+* {
+  box-sizing: border-box;
+}
+.hide {
+  display: none !important;
+}
+.inner{       
+  margin: 0 auto;
+  width: 1140px;
+}
+/* *{
+  font-size: 14px;
+} */
+h1,h2,h3,h4,h5,h6,a,p,span,ul,ol{
+  margin: 0;
+  padding: 0;
+}
+
+/* 공통헤더 */
+header{            
+  width: 100%;
+  /* border-bottom: 1px solid orangered; */
+}
+header .inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+header .inner .header_logo{   
+  flex: 1;
+}
+header .inner .header_menu{   
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+}
+header .inner .header_menu li a{
+  font-size: 18px;
+  font-weight: 600;
+}
+/* 공통헤더 */
+
+
+
+
+
+/* 공통푸터 */
+footer{
+  margin-top: 100px;
+  width: 100%;
+  background-color: #fafafa;
+  border-top: 1px solid #e4e4e4;
+}
+footer .inner{
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_logo{
+  flex: 2;
+  margin-top: 10px;
+}
+.footer_info_text_link{
+  flex: 4;
+  letter-spacing: -1px;
+}
+.footer_info_text_link .footer_link{
+    display: flex;
+    margin-bottom: 30px;
+}
+.footer_info_text_link .footer_link li::after{
+  content: "｜";
+  clear: both;
+  padding: 0 5px;
+  display: inline-block;
+  font-size: 13px;
+}
+.footer_info_text_link .footer_link li:last-child::after{
+  display: none;;
+}
+.footer_info_text_link .footer_link li a{
+  font-size: 14px;
+  font-weight: 600;
+  color: #666;
+}
+.footer_info_text_link .footer_link li:last-child a{
+  color: #555;
+  font-weight: 800;
+}
+.footer_info_text_link .footer_info{
+  
+}
+.footer_info_text_link .footer_info p{
+  padding-bottom: 5px;
+  font-size: 12px;
+  color: #999;
+  font-weight: 500;
+}
+.footer_info_text_link .footer_info p.Copyright{
+  margin-top: 5px;
+}
+.footer_sns{
+  flex: 2;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.footer_sns li{
+
+}
+.footer_aside{
+  flex: 2;
+}
+.footer_aside select{
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #c8c8c8;
+}
+.footer_aside .footer_right_img{
+  margin-top: 5px;
+}
+
+
+/* 공통푸터 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

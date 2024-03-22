@@ -1,0 +1,141 @@
+body {
+  /* border: 2px solid yellow; */
+}
+
+.inner-header{
+  background: url('../img/customer/bg_sub_title.jpg') no-repeat center/cover;
+  /* border: 2px solid red; */
+  color: white;
+  text-align: center;
+  padding: 60px 50px;
+  
+}
+.inner-header h1{
+  /* border: 2px solid yellow; */
+  font-size: 55px;
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+
+.inner-header h2 {
+    /* border: 2px solid blue; */
+  font-size: 25px;
+  line-height: 36px
+}
+
+.main {
+    
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.main .title {
+  /* border: 2px solid blue; */
+  font-size: 26px;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.15;
+  margin-bottom: 60px;
+  margin-top: 80px;
+}
+
+.big_box {
+  color:#000;
+  font-size: 16px;
+}
+
+.big_box .re, ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.big_box .re {
+  flex-direction: row-reverse;
+}
+
+.big_box ul li.imgimg {
+  /* 자식 */
+  width: 50%;
+}
+.big_box ul li.icon_text {
+  /* 자식 */
+  width: 50%;
+}
+.big_box ul li.icon_text {
+  padding: 60px 50px;
+  position: relative;
+}
+
+.big_box ul li.icon_text .tit-st1 {
+  /* border: 2px solid blue; */
+  font-size: 26px;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.15;
+  margin: 20px
+}
+
+.big_box ul li.icon_text .tit-st1 .more {
+  background-color: #ff6a00;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  position: relative;
+  left: 220px;
+}
+
+.big_box ul li.icon_text .txt {
+  /* border: 2px solid black; */
+  margin: 20px;
+  letter-spacing : -1px;
+  line-height: 25px;
+  
+}
+
+.big_box ul li.icon_text .icon-wrap{
+  /* border: 2px solid red; */
+  text-align: center;
+
+}
+
+.big_box ul li.icon_text .icon-wrap ul{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+
+}
+
+.big_box ul li.icon_text .icon-wrap ul li {
+  /* background: yellow; */
+}
+
+.big_box ul li.icon_text .icon-wrap ul li .icon {
+  /* border: 2px solid blue; */
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+.big_box ul li.icon_text .icon-wrap ul li p {
+  /* border: 2px solid green; */
+  text-align: center; 
+}
+
+.big_box ul li.icon_text .icon-wrap ul li p span {
+  /* border: 2px solid blue; */
+  font-size: 13px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
